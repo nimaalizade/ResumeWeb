@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "TimesNewRomance";
+    font-style: normal;
+    font-weight: 400;
+    src: local("TimesNewRomance"),
+      url("/fonts/TimesNewRomance.ttf") format("truetype");
+  }
+
+  h1 {
+    @apply text-3xl;
+    /* @apply font-times-new-romance; */
+  }
+
+  h2 {
+    @apply text-xl;
+  }
+}
