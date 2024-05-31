@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       fontFamily: {
         'times-new-romance': ['"TimesNewRomance"', 'sans-serif'],
+        apercu: ["Apercu", "sans-serif"],
       },
     },
   },

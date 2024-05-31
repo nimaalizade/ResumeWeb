@@ -11,6 +11,14 @@
       url("/fonts/TimesNewRomance.ttf") format("truetype");
   }
 
+  @font-face {
+    font-family: "Apercu";
+    src: url("/asets/fonts/ApercuRegular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-weight: 300;
+  }
+
   h1 {
     @apply text-3xl;
     /* @apply font-times-new-romance; */
@@ -36,4 +44,36 @@
   .mobile-active-menu {
     @apply block border-l-4 border-indigo-500 bg-indigo-50 py-2 pl-3 pr-4 text-base font-medium text-indigo-700;
   }
+}
+
+/* word wrao */
+.word-wrap-10 {
+  word-break: break-all;
+  overflow-wrap: break-word;
+  width: 40rem;
+}
+
+/* hand shake  */
+@keyframes shake-horizontal {
+  0% {
+    transform: translateX(0px) rotate(0deg);
+  }
+  20% {
+    transform: translateX(-px) rotate(-5deg);
+  }
+  40% {
+    transform: translateX(10px) rotate(5deg);
+  }
+  60% {
+    transform: translateX(-10px) rotate(-5deg);
+  }
+  80% {
+    transform: translateX(10px) rotate(5deg);
+  }
+  100% {
+    transform: translateX(0px) rotate(0deg);
+  }
+}
+.hand-icon:hover {
+  animation: shake-horizontal 1s infinite;
 }
