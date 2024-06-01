@@ -46,7 +46,7 @@
   }
 }
 
-/* word wrao */
+/* word wrap */
 .word-wrap-10 {
   word-break: break-all;
   overflow-wrap: break-word;
