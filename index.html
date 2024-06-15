@@ -10,12 +10,14 @@
       href="/asets/icons/favicon.png"
       type="image/x-icon"
     />
+    <script src="js/index.js"></script>
+    <!-- <script src="https://unpkg.com/typewriter-effect/dist/core.js"></script> -->
   </head>
   <body class="">
     <!-- main header section -->
     <section id="main-header">
       <!-- site logo -->
-      <nav class="bg-white pb-2 shadow">
+      <nav class="bg-white pb-2 shadow sticky-header">
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div class="flex h-16 justify-between">
             <div class="flex">
@@ -95,9 +97,12 @@
     <section id="first-section" class="mx-4 mt-20 md:mx-80 md:mt-44 min-h-80">
       <div class="flex flex-row items-center">
         <h1
+          id="typeHello"
           class="font-apercu mx-5 font-extrabold text-3xl md:text-4xl lg:text-4xl"
         >
-          Hello!
+          <span class="inline-block overflow-hidden">
+            <span class="animate-typewriter"></span>
+          </span>
         </h1>
         <img
           class="h-8 px-5 w-auto lg:block md:px-2 md:pt-0.5 md:mb-4 md:h-14 hand-icon duration-1000"

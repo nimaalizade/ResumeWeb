@@ -89,6 +89,7 @@
     "thenify-all": "^1.6.0",
     "to-regex-range": "^5.0.1",
     "ts-interface-checker": "^0.1.13",
+    "typewriter-effect": "^2.21.0",
     "util-deprecate": "^1.0.2",
     "which": "^2.0.2",
     "wrap-ansi": "^8.1.0",

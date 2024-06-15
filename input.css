@@ -44,6 +44,10 @@
   .mobile-active-menu {
     @apply block border-l-4 border-indigo-500 bg-indigo-50 py-2 pl-3 pr-4 text-base font-medium text-indigo-700;
   }
+
+  .sticky-header {
+    @apply fixed top-0 left-0 w-full;
+  }
 }
 
 /* word wrap */
@@ -76,4 +80,38 @@
 }
 .hand-icon:hover {
   animation: shake-horizontal 1s infinite;
+}
+
+@keyframes blink {
+  0% {
+    border-color: currentColor;
+  }
+  50% {
+    border-color: transparent;
+  }
+  100% {
+    border-color: currentColor;
+  }
+}
+.animate-typewriter {
+  animation: typing 3.5s steps(40, end), blink-caret.75s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
 }
