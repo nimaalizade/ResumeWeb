@@ -670,11 +670,13 @@ h2 {
   color: rgb(67 56 202 / var(--tw-text-opacity));
 }
 
-.sticky-header {
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  width: 100%;
+.bg-gradient {
+  background-image: linear-gradient(
+      to top,
+      indigo 0%,
+      #f7f7f7 50%,
+      white 100%
+    );
 }
 
 .sr-only {
@@ -714,6 +716,10 @@ h2 {
 
 .mb-10 {
   margin-bottom: 2.5rem;
+}
+
+.mb-24 {
+  margin-bottom: 6rem;
 }
 
 .mr-2 {
@@ -772,6 +778,14 @@ h2 {
   height: 2rem;
 }
 
+.h-screen {
+  height: 100vh;
+}
+
+.h-full {
+  height: 100%;
+}
+
 .min-h-80 {
   min-height: 20rem;
 }
@@ -786,6 +800,10 @@ h2 {
 
 .w-auto {
   width: auto;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .max-w-7xl {
@@ -1115,6 +1133,15 @@ h2 {
   }
 }
 
+@media (min-width: 768px) {
+  .md\:sticky-header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+  }
+}
+
 .hover\:border-gray-300:hover {
   --tw-border-opacity: 1;
   border-color: rgb(209 213 219 / var(--tw-border-opacity));
@@ -1201,6 +1228,10 @@ h2 {
   .md\:mx-80 {
     margin-left: 20rem;
     margin-right: 20rem;
+  }
+
+  .md\:mb-1 {
+    margin-bottom: 0.25rem;
   }
 
   .md\:mb-4 {

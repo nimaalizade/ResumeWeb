@@ -48,6 +48,15 @@
   .sticky-header {
     @apply fixed top-0 left-0 w-full;
   }
+
+  .bg-gradient {
+    background-image: linear-gradient(
+      to top,
+      indigo 0%,
+      #f7f7f7 50%,
+      white 100%
+    );
+  }
 }
 
 /* word wrap */
