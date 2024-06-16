@@ -1,9 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html
+  lang="en"
+  class="scroll-smooth hover:scroll-auto md:scroll-auto"
+  style="scroll-behavior: smooth"
+>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nima Alizade</title>
+    <link href="https://unpkg.com/pattern.css" rel="stylesheet" />
     <link rel="stylesheet" href="/css/style.css" />
     <link
       rel="shortcut icon"
@@ -94,7 +99,7 @@
 
     <!-- first section -->
     <section id="first-section" class="mx-4 mt-20 md:mx-80 md:mt-44 min-h-80">
-      <div class="flex flex-row items-center">
+      <div class="flex flex-row">
         <h1
           id="typeHello"
           class="font-apercu mx-5 font-extrabold text-3xl md:text-4xl lg:text-4xl"
@@ -104,7 +109,7 @@
           </span>
         </h1>
         <img
-          class="h-8 px-5 w-auto lg:block md:px-2 md:pt-0.5 md:mb-4 md:h-14 hand-icon duration-1000"
+          class="h-8 px-3 mb-4 w-14 lg:block md:px-2 md:pb-5 md:mb-4 md:h-16 md:w-auto hand-icon duration-1000"
           src="/asets/icons/wav-hande.png"
           alt="Your Company"
         />
@@ -114,14 +119,15 @@
           class="font-apercu mx-5 mt-8 text-balance tracking-tight text-lg md:text-xl md:word-wrap-10 lg:text-2xl"
         >
           I'm
-          <strong class="font-extrabold">'Nima Alizadeh' </strong>, a
-          trailblazing web developer with a passion for crafting innovative,
-          user-centric digital experiences. With a laser-like focus on front-end
-          development, I specialize in distilling complex, dynamic ideas into
-          simple, intuitive interfaces that delight users, exceed expectations,
-          and drive engagement. I'm always pushing the boundaries of what's
-          possible, leveraging the latest advancements in HTML5, CSS3, and
-          JavaScript to stay ahead of the curve and deliver exceptional,
+          <strong class="font-extrabold text-indigo-700"
+            >'Nima Alizadeh' </strong
+          >, a trailblazing web developer with a passion for crafting
+          innovative, user-centric digital experiences. With a laser-like focus
+          on front-end development, I specialize in distilling complex, dynamic
+          ideas into simple, intuitive interfaces that delight users, exceed
+          expectations, and drive engagement. I'm always pushing the boundaries
+          of what's possible, leveraging the latest advancements in HTML5, CSS3,
+          and JavaScript to stay ahead of the curve and deliver exceptional,
           pixel-perfect results. With a relentless commitment to innovation, I'm
           constantly seeking out new ways to harness the power of modern web
           technologies, including PWA's, responsive design, and accessibility
@@ -150,6 +156,188 @@
 
     <!-- section skills  -->
 
-    <section id="skill" class="mx-4 mt-20 md:mx-80 md:mt-44 min-h-80"></section>
+    <section
+      id="skill"
+      class="max-w-6xl mx-4 mr-10 mt-20 md:mr-0 md:mx-80 md:mt-80 md:mb-48 min-h-80"
+    >
+      <!-- This is an example component -->
+      <div>
+        <div class="">
+          <div class="text-center mb-20">
+            <h2
+              class="font-apercu mb-4 text-4xl font-bold leading-10 tracking-tight sm:text-5xl sm:leading-none md:text-6xl"
+            >
+              Skill's
+            </h2>
+            <p class="font-apercu leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
+              Donner du goût? de la couleur aux applications, je le fais afin de
+              rendre vos sites attrayants?. Avant de devenir webdesigner, depuis
+              tout petit j'étais déjà familier à la couleur et du dessin.
+            </p>
+            <div class="flex mt-6 justify-center">
+              <div
+                class="w-16 h-1 rounded-full bg-indigo-900 inline-flex"
+              ></div>
+            </div>
+          </div>
+          <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
+            <div class="p-10 md:w-1/3 md:mb-0 mb-6 flex flex-col">
+              <div class="pattern-dots-md">
+                <div class="skill-container">
+                  <div class="icon-box bg-red-100 text-red-500">
+                    <img
+                      draggable="false"
+                      class="w-12 h-12"
+                      src="asets/svgs/html-5-logo-svgrepo-com.svg"
+                      alt="html-icon"
+                      srcset=""
+                    />
+                  </div>
+                  <div class="flex-grow">
+                    <h2 class="font-apercu text-xl title-font font-medium mb-3">
+                      HTML5
+                    </h2>
+                    <p class="font-aperculeading-relaxed text-sm text-justify">
+                      Donner du goût? de la couleur aux applications, je le fais
+                      afin de rendre vos sites attrayants?. Avant de devenir
+                      webdesigner, depuis tout petit j'étais déjà familier à la
+                      couleur et du dessin.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="p-10 md:w-1/3 md:mb-0 mb-6 flex flex-col">
+              <div class="pattern-dots-md gray-light">
+                <div class="skill-container">
+                  <div class="icon-box bg-blue-100 text-blue-500">
+                    <img
+                      draggable="false"
+                      class="h-12 w-12"
+                      src="asets/svgs/css-3-svgrepo-com.svg"
+                      alt="CSS icon"
+                    />
+                  </div>
+                  <div class="flex-grow">
+                    <h2 class="font-apercu text-xl title-font font-medium mb-3">
+                      CSS3
+                    </h2>
+                    <p class="font-apercu leading-relaxed text-sm text-justify">
+                      Donner du goût? de la couleur aux applications, je le fais
+                      afin de rendre vos sites attrayants?. Avant de devenir
+                      webdesigner, depuis tout petit j'étais déjà familier à la
+                      couleur et du dessin.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="p-10 md:w-1/3 md:mb-0 mb-6 flex flex-col">
+              <div class="pattern-dots-md gray-light">
+                <div class="skill-container">
+                  <div class="icon-box bg-yellow-100 text-yellow-500">
+                    <img
+                      draggable="false"
+                      class="h-10 w-10"
+                      src="asets/svgs/javascript-svgrepo-com (1).svg"
+                      alt="JavaScript-icon"
+                    />
+                  </div>
+                  <div class="flex-grow">
+                    <h2 class="font-apercu text-xl title-font font-medium mb-3">
+                      JavaScript
+                    </h2>
+                    <p class="font-apercu leading-relaxed text-sm text-justify">
+                      Donner du goût? de la couleur aux applications, je le fais
+                      afin de rendre vos sites attrayants?. Avant de devenir
+                      webdesigner, depuis tout petit j'étais déjà familier à la
+                      couleur et du dessin.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="p-10 md:w-1/3 md:mb-0 mb-6 flex flex-col">
+              <div class="pattern-dots-md gray-light">
+                <div class="skill-container">
+                  <div class="icon-box bg-indigo-100 text-white">
+                    <img
+                      draggable="false"
+                      src="asets/svgs/tailwind-svgrepo-com.svg"
+                      alt="tailwind-icon"
+                    />
+                  </div>
+                  <div class="flex-grow">
+                    <h2 class="font-apercu text-xl title-font font-medium mb-3">
+                      Tailwind
+                    </h2>
+                    <p class="font-apercu leading-relaxed text-sm text-justify">
+                      Donner du goût? de la couleur aux applications, je le fais
+                      afin de rendre vos sites attrayants?. Avant de devenir
+                      webdesigner, depuis tout petit j'étais déjà familier à la
+                      couleur et du dessin.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="p-10 md:w-1/3 md:mb-0 mb-6 flex flex-col">
+              <div class="pattern-dots-md gray-light">
+                <div class="skill-container">
+                  <div class="icon-box bg-purple-100">
+                    <img
+                      draggable="false"
+                      src="asets/svgs/figma-svgrepo-com.svg"
+                      alt="Figma-Icon"
+                    />
+                  </div>
+                  <div class="flex-grow">
+                    <h2 class="font-apercu text-xl title-font font-medium mb-3">
+                      Figma
+                    </h2>
+                    <p class="font-apercu leading-relaxed text-sm text-justify">
+                      Donner du goût? de la couleur aux applications, je le fais
+                      afin de rendre vos sites attrayants?. Avant de devenir
+                      webdesigner, depuis tout petit j'étais déjà familier à la
+                      couleur et du dessin.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="p-10 md:w-1/3 md:mb-0 mb-6 flex flex-col">
+              <div class="pattern-dots-md gray-lighter">
+                <div class="skill-container">
+                  <div class="icon-box bg-red-100">
+                    <img
+                      draggable="false"
+                      class="h-14 w-14"
+                      src="asets/svgs/git-svgrepo-com.svg"
+                      alt="Git-icon"
+                    />
+                  </div>
+                  <div class="flex-grow">
+                    <h2 class="font-apercu text-xl title-font font-medium mb-3">
+                      Git
+                    </h2>
+                    <p class="font-apercu leading-relaxed text-sm text-justify">
+                      Donner du goût? de la couleur aux applications, je le fais
+                      afin de rendre vos sites attrayants?. Avant de devenir
+                      webdesigner, depuis tout petit j'étais déjà familier à la
+                      couleur et du dessin.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Add the missing closing div tag here -->
+            <div class="p-10 md:w-1/3 md:mb-0 mb-6 flex flex-col">
+              <!-- Your content here -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>

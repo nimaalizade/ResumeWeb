@@ -46,16 +46,27 @@
   }
 
   .sticky-header {
-    @apply fixed top-0 left-0 w-full;
+    @apply fixed top-0 left-0 w-full
+    z-20;
   }
 
   .bg-gradient {
     background-image: linear-gradient(
       to top,
-      indigo 0%,
+      indigo -70%,
       #f7f7f7 50%,
       white 100%
     );
+  }
+
+  .skill-container {
+    @apply rounded-2xl bg-white p-4 transform translate-x-6 -translate-y-6
+    p-12;
+  }
+
+  .icon-box {
+    @apply w-16 h-16 inline-flex items-center justify-center rounded-full flex-shrink-0
+    mb-5;
   }
 }
 
