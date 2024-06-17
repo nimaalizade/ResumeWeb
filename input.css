@@ -31,10 +31,10 @@
 
 @layer components {
   .desktop-menu {
-    @apply inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-lg font-medium text-gray-500 font-times-new-romance hover:border-gray-300 hover:text-gray-700;
+    @apply inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-lg font-medium text-gray-500 font-apercu hover:border-gray-300 hover:text-gray-700;
   }
   .desktop-active-menu {
-    @apply inline-flex items-center border-b-2 border-indigo-500 px-1 pt-1 text-xl font-medium font-times-new-romance text-gray-900;
+    @apply inline-flex items-center border-b-2 border-indigo-500 px-1 pt-1 text-xl font-medium font-apercu text-gray-900;
   }
 
   .mobile-menu {
